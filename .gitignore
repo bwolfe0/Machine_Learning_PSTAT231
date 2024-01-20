@@ -1,1 +1,5 @@
 .DS_Store
+.env
+**/__pycache__/
+Data_Memo.ipynb
+Data_Memo.html

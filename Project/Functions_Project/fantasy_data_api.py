@@ -6,7 +6,17 @@ import os
 
 import pandas as pd
 
-def get_data(season_year,week,api_key,endpoint_prefix='TeamGameStats'):
+def get_data(
+    season_year,
+    week,api_key,
+    endpoint_prefix='TeamGameStats'):
+    '''
+    Parameters
+    ----------
+
+    Returns
+    -------
+    '''
     base_url = 'https://api.sportsdata.io/api/nfl/odds/json'
     endpoint = f'/{endpoint_prefix}/{season_year}/{week}'
     header = {'Ocp-Apim-Subscription-Key': api_key}

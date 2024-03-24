@@ -1,0 +1,10 @@
+RV_t (Realized Variance): The daily realized variance is an observable and consistent estimator for that day's (true) integrated variance or volatility. This is the target variable.
+RV_(t-1): The previous day's realized variance.
+RV_t Weekly: The previous week's average realized variance.
+RV_t Monthly: The previous month's average realized variance.
+r_(t-1): The previous day's log return.
+r_t Weekly: The previous week's average daily log return.
+r_t Monthly: The previous month's average daily log return.
+avg_ATM_IV: The average implied volatility of the call one strike above and put one strike below the closing price of SPY for that day. It represents the market's 'estimate' of next day volatility.
+VIX Close (t-1): The previous day's close of the 30-Day VIX, which is known as Wall Street's 'Fear Index' and represents investor sentiment about future volatility.
+ATR: Average true range. The average distance between SPY's high and low over the previous 14 days.
